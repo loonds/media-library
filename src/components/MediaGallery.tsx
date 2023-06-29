@@ -59,6 +59,10 @@ const MediaGallery = () => {
     fetchData();
   }, []);
 
+  const handleCardClick = (mediaUrl: string) => {
+    console.log('Clicked media URL:', mediaUrl);
+  };
+
   return (
     <div className="container mx-auto px-4">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
@@ -73,7 +77,7 @@ const MediaGallery = () => {
           // Render actual media cards
           mediaList.map((media, index) => (
             <div key={index} className="rounded overflow-hidden shadow-lg">
-              <Card image={media} alt="Media" />
+              <Card image={media} alt='Media' onClick={()=> handleCardClick(media)}></Card>
             </div>
           ))
         )}

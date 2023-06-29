@@ -1,7 +1,7 @@
 {
-  "name": "media-library",
+  "name": "loonds-media-library",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@tailwindcss/forms": "^0.5.3",
     "@testing-library/jest-dom": "^5.16.5",
