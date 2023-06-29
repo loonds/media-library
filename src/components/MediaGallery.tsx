@@ -59,7 +59,7 @@ const MediaGallery = () => {
     fetchData();
   }, []);
 
-  const handleCardClick = (mediaUrl: string) => {
+              const handleCardClick = (mediaUrl: string) => {
     console.log('Clicked media URL:', mediaUrl);
   };
 

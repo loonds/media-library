@@ -7,7 +7,7 @@ This is a reusable package for media upload and download functionality in React.
 To install the package, run the following command:
 
 ```bash
-npm install media-package 
+npm install loonds-media-library 
 ```
 
 ## Usage
