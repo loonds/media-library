@@ -17,7 +17,7 @@ npm install loonds-media-library
 The MediaUploader component allows you to select a file and upload it.
 
 ```import React from 'react';
-import { MediaUploader } from 'media-package';
+import { MediaUploader } from 'media-library';
 
 function MyComponent() {
   return (
@@ -33,7 +33,7 @@ function MyComponent() {
 The MediaDownloader component allows you to download a media file using a provided URL.
 
 ```import React from 'react';
-import { MediaDownloader } from 'media-package';
+import { MediaDownloader } from 'media-library';
 
 function MyComponent() {
   return (
