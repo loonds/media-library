@@ -24,19 +24,22 @@ const MediaGallery = () => {
           'https://dummyimage.com/300x200/999/fff',
           'https://dummyimage.com/300x200/999/fff',
           'https://dummyimage.com/300x200/999/fff',
-          'https://dummyimage.com/300x200/999/fff','https://dummyimage.com/300x200/000/fff',
+          'https://dummyimage.com/300x200/999/fff',
+          'https://dummyimage.com/300x200/000/fff',
           'https://dummyimage.com/300x200/333/fff',
           'https://dummyimage.com/300x200/666/fff',
           'https://dummyimage.com/300x200/999/fff',
           'https://dummyimage.com/300x200/999/fff',
           'https://dummyimage.com/300x200/999/fff',
-          'https://dummyimage.com/300x200/999/fff','https://dummyimage.com/300x200/000/fff',
+          'https://dummyimage.com/300x200/999/fff',
+          'https://dummyimage.com/300x200/000/fff',
           'https://dummyimage.com/300x200/333/fff',
           'https://dummyimage.com/300x200/666/fff',
           'https://dummyimage.com/300x200/999/fff',
           'https://dummyimage.com/300x200/999/fff',
           'https://dummyimage.com/300x200/999/fff',
-          'https://dummyimage.com/300x200/999/fff','https://dummyimage.com/300x200/000/fff',
+          'https://dummyimage.com/300x200/999/fff',
+          'https://dummyimage.com/300x200/000/fff',
           'https://dummyimage.com/300x200/333/fff',
           'https://dummyimage.com/300x200/666/fff',
           'https://dummyimage.com/300x200/999/fff',
@@ -59,7 +62,7 @@ const MediaGallery = () => {
     fetchData();
   }, []);
 
-              const handleCardClick = (mediaUrl: string) => {
+  const handleCardClick = (mediaUrl: string) => {
     console.log('Clicked media URL:', mediaUrl);
   };
 
