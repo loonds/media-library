@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const API_URL = 'http://example.com/api'; // Replace with your API URL
 
-const uploadMedia = async (file:any) => {
+const uploadMedia = async (file: File) => {
   try {
     const formData = new FormData();
     formData.append('file', file);
@@ -17,9 +17,9 @@ const uploadMedia = async (file:any) => {
 };
 
 const MediaUploader = () => {
-  const [selectedFile, setSelectedFile] = useState(null);
+  const [selectedFile, setSelectedFile] = useState<File | null>(null);
 
-  const handleFileChange = async (event:any) => {
+  const handleFileChange = async (event: React.ChangeEvent<HTMLInputElement>) => {
     const file = event.target.files?.[0];
 
     if (file) {
@@ -30,6 +30,7 @@ const MediaUploader = () => {
         setSelectedFile(null);
       } catch (error) {
         console.error('Error uploading media:', error);
+        // Handle the error appropriately (e.g., show an error message to the user)
       }
     }
   };

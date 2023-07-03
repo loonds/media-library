@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import Card from './common/Card';
-import ShimmerCard from './common/ShimmerCard';
+import Card from './components/Card';
+import ShimmerCard from './components/ShimmerCard';
 
 const MediaGallery = () => {
   const [mediaList, setMediaList] = useState<string[]>([]);

@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import MediaUploader from './components/MediaUploader';
-import MediaGallery from './components/MediaGallery';
+import MediaUploader from './MediaUploader';
+import MediaGallery from './MediaGallery';
 
 function App() {
   return (
